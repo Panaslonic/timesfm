@@ -29,7 +29,7 @@ classifiers = [
 include = ["LICENSE"]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.10,<3.13"
 einshape = ">=1.0.0"
 numpy = ">=1.26.4"
 pandas = ">=2.0.0"
@@ -67,7 +67,7 @@ python = ">=3.10,<3.12"  # Support both python versions
 [tool.poetry.dependencies.torch]
 version = ">=2.0.0"
 extras = ["cuda"]
-python = ">=3.11,<3.12"
+python = ">=3.11,<3.13"
 
 [tool.poetry.group.dev.dependencies]
 pytest = ">=8.3.2"
